@@ -35,7 +35,6 @@
             <ul class="nav">
                 <li><a href="#home" class="active nav-item" id="navbar li"><i class="fa-solid fa-house"></i></i>Home</a></li>
                 <li><a href="#about" id="navbar li"class=" nav-item"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#services" id="navbar li"class=" nav-item"><i class="fa fa-list"></i>Services</a></li>
                 <li><a href="#portfolio" id="navbar li"class=" nav-item"><i class="fa fa-briefcase"></i>Portfolio</a></li>
                 <li><a href="#contact" id="navbar li"class=" nav-item"><i class="fa fa-comments"></i>contact</a></li>
             
@@ -50,9 +49,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
-                            <h3 class="hello"> Hello, my name is <span class="name">Raman Maurya</span></h3>
-                            <h3 class="my-profession">I'm a <span id="typing-text">Student</span></h3>
-                             <p>I'm a B.Tech CSE Student----
+                            <h3 class="hello"> Hello, This is <span class="name">Raman Maurya</span></h3>
+                            <h3 class="my-profession">Aspiring <span id="name">SDE</span></h3>
+                             <p>I'm a B.Tech CSE Student at RKGIT, My journey into the realm of Computer Science began here. Over these four formative years, I immersed myself in the intricacies of programming, algorithms, and software engineering.
                             </p> 
                             <a href="#contact" class="btn hire-me"><h4>Hire me</h4> </a>
                         </div>
@@ -172,7 +171,7 @@
                                                     </h3>
                                                     <h4 class="timeline-title">B.Tech in computer science</h4>
                                                     <p class="timeline-text">
-                                                     My journey into the realm of Computer Science began here. Over these four formative years, I immersed myself in the intricacies of programming, algorithms, and software engineering. Through hands-on projects and collaborative endeavors, I honed my skills in turning concepts into functional applications that address real-world challenges. The experiences and knowledge gained during my B.Tech have provided me with a strong foundation for my career as a Fullstack web developer.</p>
+                                                     My journey into the realm of Computer Science began here. Over these four formative years, I immersed myself in the intricacies of programming, algorithms, and software engineering. Through hands-on projects and collaborative endeavors, I honed my skills in turning concepts into functional applications that address real-world challenges. The experiences and knowledge I'm gaining during my B.Tech journey are so incredible and helpful.</p>
                                                 </div>
 
                                             </div>
@@ -192,18 +191,18 @@
                                                     </h3>
                                                     <h4 class="timeline-title">Emerging Technologies(AI & Cloud) - Edunet Foundation</h4>
                                                     <p class="timeline-text">
-                                                     During my internship, I have access to IBM Cloud and IBM Academics collaborated AICTE India, to learn and deploy on it.with a cross-functional team to develop responsive and user-friendly web applications. I gained practical experience with technologies like React.js and Node.js, implementing dynamic features and contributing to UI enhancements. By working closely with senior developers, I refined my coding skills and learned best practices in version control and code review processes.
+                                                     During my internship, I have access to IBM Cloud and IBM Academics collaborated with AICTE India, to learn about AI and Cloud Technologies and deploy the learning on the provided platform(IBM Cloud).It gives me hands on experience by top industry experts and a valuable experience of 4 weeks.
                                                     </p>
                                                 </div>                         
                                                     <!--timeline items-->
                                                     <div class="timeline-item">
                                                         <div class="circle-dot"></div>
                                                         <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> 2022 - 2023
+                                                            <i class="fa fa-calendar"></i> 2024 
                                                         </h3>
-                                                        <h4 class="timeline-title">Freelance Web Development Projects</h4>
+                                                        <h4 class="timeline-title">Feature Ready Talent by Microsoft</h4>
                                                         <p class="timeline-text">
-                                                         As a freelance web developer, I've had the privilege of working with diverse clients to bring their digital visions to life. I've created and launched several successful websites, employing my proficiency in HTML, CSS, JavaScript, and various frameworks. Collaborating directly with clients, I've refined my communication and project management skills, ensuring that each project aligns with the client's goals and exceeds their expectations.</p>
+                                                           This is a virtual internship program launched by Microsoft, Future Skills Prime, Zuno by foundit & Github. Here I learn about different Azure services and also deployed two of its services in a website which is static web apps and Azure storage services. </p>
                                                     </div>
 
                                                     
@@ -279,8 +278,9 @@
                        <!--contact info item start-->
                        <div class="contact-info-item padd-15">
                         <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                        <h4>Website</h4>
-                        <p>www.domain.com</p>
+                        <h4>Github</h4>
+                        <a href="https://github.com/Raman-Maurya"><p>click to open</p> </a>
+        
                        </div>
                        <!--contact info item end-->
                     </div>
@@ -311,5 +311,18 @@
     </div>
     <!-- style switcher end-->
     <script src="./css-js-files/script.js"></script>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "2eeabaa5-12d4-4692-b430-ccc19b079cbf", // The ID of this integration.
+          region: "au-syd", // The region your integration is hosted in.
+          serviceInstanceID: "fbb17bbf-9b83-41c5-8fda-67ed1a0db718", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
 </body>
 </html>
